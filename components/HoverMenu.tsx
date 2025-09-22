@@ -97,7 +97,7 @@ const HoverMenu: React.FC<HoverMenuProps> = ({ navigationData, menuLayout, onSel
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="absolute top-full left-0 mt-4 bg-white rounded-xl shadow-2xl p-6 md:p-8 z-50 origin-top-left"
+            className="absolute top-full left-0 mt-0.5 bg-white rounded-xl shadow-2xl p-6 md:p-8 z-50 origin-top-left"
         >
             <div className="grid grid-cols-1 md:grid-cols-3 text-black divide-y md:divide-y-0 md:divide-x divide-gray-100 w-max min-w-[800px]">
                 <div className="space-y-8 pb-6 md:pb-0 md:pr-8">
