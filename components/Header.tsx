@@ -317,7 +317,7 @@ const Header: React.FC = () => {
                             </AnimatePresence>
                         </div>
                         <nav>
-                            <ul className="flex items-center gap-x-6">
+                            <ul className="flex items-center gap-x-8">
                                 {navItems.map((item) => (
                                     <li key={item.key}>
                                         <NavItem icon={item.navIcon} label={item.label} />
